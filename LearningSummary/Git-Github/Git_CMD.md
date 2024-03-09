@@ -22,14 +22,14 @@
 * config
 
 > * 设置查询更改（版本库，系统，全局……）指令
->
+> *
 > * $ git config --list
->
+> *
 > * $ git config (--global) user.name
 > * $ git config (--global) user.email
->
-> * $ git config (--global) origin_name "new_name"
-> * $ git config (--global) origin_email "new_email"
+> *
+> * $ git config (--global) origin_name "new_name"  
+> * $ git config (--global) origin_email "new_email"  
 
 ## WorkArea
 
