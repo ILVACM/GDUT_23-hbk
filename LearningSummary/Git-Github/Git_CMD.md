@@ -8,7 +8,7 @@
 > 4.一般命令格式为：$ git [cmd] (- auxiliary character) ( [argv1] …… )  
 > 5.'$' 一般已经给出，'git' 基本是所有命令的前缀，此两项可能省略（有特殊情况会额外说明）  
 > 6.部分指令操作需要注意操作位置和文件路径问题，即 cd 指令的结合使用
-> 7.默认主分支由 master 更改为 main ，可能与政治原因有关，在指令输入时注意
+> 7.默认主分支由 master 更改为 main ( master == main )，可能与政治原因有关，在指令输入时注意
 
 ## Auxiliary Characters
 
@@ -60,7 +60,7 @@
 
 > 推送更新指令
 >
-> * $ git push
+> * $ git push (origin) (main) 无参数则默认为 origin 远端的 master 分支
 > * $ git push [remote respository name] <branch_name>
 > *
 > * $ git push [remote respository name] --force (???)
