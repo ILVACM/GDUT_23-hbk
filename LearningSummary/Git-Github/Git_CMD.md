@@ -56,6 +56,17 @@
 * fetch
 * pull
 * push
+* remote
+
+> 远程同步指令
+>
+> * $ git remote -v
+> * $ git remote show [remote repository name]
+>
+> * $ git remote add [repository_name] [URL]
+> * $ git remote add
+>
+> * $ git remote rm <repository_name>
 
 ## History Change (self)
 
@@ -70,8 +81,29 @@
 ## File Change
 
 * add
-* mv
+
+> 文件添加指令 将文件添加至工作区中，使 Git 可以追踪记录文件的修改并提交推送
+>
+> * $ git add .
+> * $ git add [(Drive:)/sub-directory/.../]
+> *
+> * $ git add specify_file.js
+> * $ git add (Drive:)/sub-directory/.../specify_file.js
+> * $ git add [file1] [file2] ...
+> *
+> * $ git add -p 添加每个变化前，都会要求确认
+
 * rm
+
+> 文件删除指令 将文件从工作区中删除，不会再影响后续 Git 所有提交推送
+>
+> * $ git rm specify_file.js
+> * $ git rm (Drive:)/sub-directory/.../specify_file.js
+> * $ git rm [file1] [file2] ...
+>
+> * $ git rm --cached [file] 停止追踪指定文件，但该文件会保留在工作区
+
+* mv
 * restore
 
 ## Examine The history && state
@@ -92,3 +124,5 @@
 * [Git 命令参考手册整理](https://zhuanlan.zhihu.com/p/389814854)
 
 * [Git-Github 基础操作](https://blog.csdn.net/Hanani_Jia/article/details/77950594)
+
+* [Git 命令使用文档（本地）](C:\Program Files\Git\mingw64\share\doc\git-doc)
