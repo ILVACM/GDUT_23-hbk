@@ -7,14 +7,29 @@
 > 3.一般命令格式为：$ git [cmd] (- auxiliary character) ( [argv1] …… )  
 > 4.'$' 一般已经给出，'git' 基本是所有命令的前缀，此两项可能省略（有特殊情况会额外说明）  
 > 5.部分指令操作需要注意操作位置和文件路径问题，即 cd 指令的结合使用
+> 6.默认主分支由 master 更改为 main ，可能与政治原因有关，在指令输入时注意
 
 ## Auxiliary Characters
 
-* -h --help
+* -h (--)help
+
+> 指令使用查询/帮助文档
+>
+> * $ git help [cmd] (argvs)
 
 ## User
 
 * config
+
+> * 设置查询更改（版本库，系统，全局……）指令
+>
+> * $ git config --list
+>
+> * $ git config (--global) user.name
+> * $ git config (--global) user.email
+>
+> * $ git config (--global) origin_name "new_name"
+> * $ git config (--global) origin_email "new_email"
 
 ## WorkArea
 
@@ -67,6 +82,10 @@
 * log
 * show
 * status
+
+> 分支状态查询指令
+>
+> * $ git status
 
 ## Reference Website
 
