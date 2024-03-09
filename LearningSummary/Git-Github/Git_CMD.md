@@ -20,6 +20,12 @@
 
 * clone
 
+> 下载（拷贝）项目
+>
+> * $ git clone [url]
+>
+> url : Uniform Resource Locator 统一资源定位符（网址等）
+
 * init (initialize)
 
 > 初始化指令
