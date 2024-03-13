@@ -1,7 +1,9 @@
-money = int(input("Please input the initial fund:"))
-month = int(input("Please input the time of duration:"))
-rate = int(input("Please input the rate of per month:"))
+origin = float( input() )
 
-ans = money * ( ( 1+rate ) ** month )
+inter = int(origin)
 
-print(ans - money)
+
+num_int = []
+num_float = []
+
+while inter
