@@ -1,4 +1,13 @@
 # The 1st method
+
+"""
+
+第一种方法首先采用类似 C/C++ 的高精度( 详情见 OI WIKI 网站说明 )
+但是相较 C/C++ ，对 python 的各类模块和语法格式极其不熟练，因此一直无法解决最后一位的精度丢失问题
+但是可以做到任意位数的数字反向
+
+"""
+
 ##################################################################
 origin = input("Please input a float number(this is the first test):")
 
@@ -37,7 +46,18 @@ for j in num_int:
     
 print(ans)
 
+
+
+
 # The 2nd method
+
+"""
+
+第二种方法通过尽可能使用整数取数并重排列，避免了精度丢失问题
+同样可以做到任意位数的数字反向
+
+"""
+
 ######################################################
 
 origin = input("Please input a float number(this is the second test):")
