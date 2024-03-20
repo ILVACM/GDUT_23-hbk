@@ -1,7 +1,0 @@
-=== Official Website ===
-https://www.oracle.com/cn/cloud/
-
-=== CSDN Guide ===
-https://blog.csdn.net/LKFMYQQ/article/details/120519567
-https://blog.csdn.net/weixin_40448140/article/details/105904836
-https://blog.csdn.net/weixin_61370021/article/details/126788606

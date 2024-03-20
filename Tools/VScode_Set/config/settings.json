@@ -1,0 +1,70 @@
+{
+    "workbench.colorTheme": "Visual Studio 2017 Dark - C++",
+    "workbench.settings.applyToAllProfiles": [
+        "terminal.explorerKind",
+        "cmake.options.statusBarVisibility",
+        "C_Cpp.workspaceSymbols",
+        "C_Cpp_Runner.cCompilerPath",
+        "C_Cpp_Runner.cppCompilerPath",
+        "C_Cpp_Runner.debuggerPath",
+        "files.autoSave",
+        "editor.fontSize",
+        "editor.fontFamily",
+        "editor.formatOnPaste",
+        "editor.quickSuggestions",
+        "python.condaPath",
+        "files.encoding",
+        "files.autoGuessEncoding",
+        "git.terminalGitEditor",
+        "git.terminalAuthentication",
+        "python.defaultInterpreterPath",
+        "java.jdt.ls.java.home"
+    ],
+    "cmake.configureOnOpen": true,
+    "cmake.options.statusBarVisibility": "visible",
+    "C_Cpp.default.compilerPath": "D:\\TOOLS\\VSCode\\VSCode2022\\mingw64\\bin",
+    "C_Cpp.intelliSenseEngineFallback": "enabled",
+    "C_Cpp.workspaceSymbols": "All",
+    "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyType": true,
+    "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyFunction": true,
+    "C_Cpp.vcFormat.newLine.scopeBracesOnSeparateLines": true,
+    "C_Cpp_Runner.cCompilerPath": "D:\\TOOLS\\VSCode\\VSCode2022\\mingw64\\bin\\gcc.exe",
+    "C_Cpp_Runner.cppCompilerPath": "D:\\TOOLS\\VSCode\\VSCode2022\\mingw64\\bin\\g++.exe",
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 16,
+    "C_Cpp.autocompleteAddParentheses": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.quickSuggestions": {
+        "comments": "on",
+        "strings": "on"
+    },
+    "editor.fontFamily": "JetBrains Mono Medium, 'JetBrains Mono Medium', JetBrains Mono Medium",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.editorAssociations": {
+        "*.docx": "default"
+    },
+    "markdown-preview-enhanced.previewTheme": "github-dark.css",
+    "markdown-preview-enhanced.codeBlockTheme": "github.css",
+    "markdown-pdf.styles": [
+        "D:\\TOOLS\\VSCode\\配置文件\\Markdown_PDF\\Font.css"
+    ],
+    "workbench.iconTheme": "material-icon-theme",
+    "RainbowBrackets.depreciation-notice": false,
+    "python.condaPath": "D:\\Python\\Anaconda3\\Scripts\\conda.exe",
+    "files.encoding": "gbk",
+    "files.autoGuessEncoding": true,
+    "git.path": "C:\\Program Files\\Git\\bin\\git.exe",
+    "git.enableSmartCommit": true,
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "/.docx.json"
+            ],
+            "url": "https://raw.githubusercontent.com/Mehdi-Verfaillie/docx/main/src/config/.docx.schema.json"
+        }
+    ],
+    "python.defaultInterpreterPath": "d:\\Python\\Anaconda3\\envs\\Python37_yolov5\\python.exe",
+    "java.jdt.ls.java.home": "D:\\Java\\jdk_21",
+    "redhat.telemetry.enabled": true
+}
