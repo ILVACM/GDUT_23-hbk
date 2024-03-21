@@ -28,9 +28,6 @@
 >
 > > * 可标记 6 级标题
 > > * 在标题左边输入相应数量符号
-> > * 标题居中 (html) ：  
-> >   \<h1 align = "center"> Title_context \</h1>  
-> >   PS：其中 h1 指代一级标题，h2 指二级标题，以此类推
 >
 > * 定义格式：
 >
@@ -39,6 +36,11 @@
 > > ...
 > > * \###### Sixth_level title_name
 >
+
+3.标题居中
+
+> \<h1 align = "center"> Title_context \</h1>  
+> PS：其中 h1 指代一级标题，h2 指二级标题，以此类推
 
 ## 段落
 
