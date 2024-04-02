@@ -24,5 +24,11 @@
 >
 > 7. Test Model  
 >    * Image
+>      python detect.py --source /date/source/path/filename.js ( "./" -> root directory )  
+>
 >    * Video
+>      python detect.py --source /date/source/path/filename.js ( "./" -> root directory )  
+>
 >    * Camera
+>      python detect.py --source 0  
+>
