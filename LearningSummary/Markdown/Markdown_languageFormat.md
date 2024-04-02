@@ -87,7 +87,7 @@
 > 6. 脚注
 >
 > > * 定义格式：  
-> > \[^Annotate_Text]: "Tnterpretative Statement or Explanation"
+> > \[^Annotate-Text]: "Tnterpretative Statement or Explanation"
 >
 >
 
@@ -110,7 +110,7 @@
 > > * 格式说明：  
 > > 在子列表中的选项前面添加两个或四个空格 (x) 即可
 > > * 定义格式：  
-> > Numerical_code. Content Text  
+> > Numerical-code. Content Text  
 > > xx\* Content Text  
 > > xx\* Content Text
 >
@@ -119,7 +119,15 @@
 
 ## 代码
 
+## 链接
+
+> 1. 名称链接   \[Interlinkage - Name](Interlinkage - address)
+> 2. 直接链接   \<Interlinkage - address>
+> 3. 变量链接   \[Interlinkage - Name][Interlinkage - var] ... [Interlinkage - var]:Interlinkage - address
+
 ## 图片
+
+> \!\[Attribute-Text](Image-address)
 
 ## 表格
 
