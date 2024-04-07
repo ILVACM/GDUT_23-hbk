@@ -1,20 +1,20 @@
 <h1 align = "center"> Git Instructions Summary </h1>
 
-## ÔÄ¶ÁËµÃ÷
+## é˜…è¯»è¯´æ˜
 
-> 1.ÕıÎÄÄÚÈİÖĞÔ²»¡À¨ºÅ '()' ´ú±í¿ÉÑ¡£¬¼´¿ÉÊ¡ÂÔ  
-> 2.ÕıÎÄÄÚÈİÖĞ·½À¨ºÅ '[]' ´ú±íÒÔÖ¸¶¨ÀàĞÍ¸ñÊ½×Ö·û´®ÄÚÈİÌæ»»  
-> 3.´ËÎÄÕë¶Ô GitÃüÁîÌáÊ¾·û(Git Bash) ²Ù×÷»·¾³£¬ÀàËÆ DOS ²Ù×÷·½Ê½  
-> 4.Ò»°ãÃüÁî¸ñÊ½Îª£º$ git [cmd] (- auxiliary character) ( [argv1] ¡­¡­ )  
-> 5.'$' Ò»°ãÒÑ¾­¸ø³ö£¬'git' »ù±¾ÊÇËùÓĞÃüÁîµÄÇ°×º£¬´ËÁ½Ïî¿ÉÄÜÊ¡ÂÔ£¨ÓĞÌØÊâÇé¿ö»á¶îÍâËµÃ÷£©  
-> 6.²¿·ÖÖ¸Áî²Ù×÷ĞèÒª×¢Òâ²Ù×÷Î»ÖÃºÍÎÄ¼şÂ·¾¶ÎÊÌâ£¬¼´ cd Ö¸ÁîµÄ½áºÏÊ¹ÓÃ  
-> 7.Ä¬ÈÏÖ÷·ÖÖ§ÓÉ master ¸ü¸ÄÎª main ( master == main )£¬¿ÉÄÜÓëÕşÖÎÔ­ÒòÓĞ¹Ø£¬ÔÚÖ¸ÁîÊäÈëÊ±×¢Òâ
+> 1.æ­£æ–‡å†…å®¹ä¸­åœ†å¼§æ‹¬å· '()' ä»£è¡¨å¯é€‰ï¼Œå³å¯çœç•¥  
+> 2.æ­£æ–‡å†…å®¹ä¸­æ–¹æ‹¬å· '[]' ä»£è¡¨ä»¥æŒ‡å®šç±»å‹æ ¼å¼å­—ç¬¦ä¸²å†…å®¹æ›¿æ¢  
+> 3.æ­¤æ–‡é’ˆå¯¹ Gitå‘½ä»¤æç¤ºç¬¦(Git Bash) æ“ä½œç¯å¢ƒï¼Œç±»ä¼¼ DOS æ“ä½œæ–¹å¼  
+> 4.ä¸€èˆ¬å‘½ä»¤æ ¼å¼ä¸ºï¼š$ git [cmd] (- auxiliary character) ( [argv1] â€¦â€¦ )  
+> 5.'$' ä¸€èˆ¬å·²ç»ç»™å‡ºï¼Œ'git' åŸºæœ¬æ˜¯æ‰€æœ‰å‘½ä»¤çš„å‰ç¼€ï¼Œæ­¤ä¸¤é¡¹å¯èƒ½çœç•¥ï¼ˆæœ‰ç‰¹æ®Šæƒ…å†µä¼šé¢å¤–è¯´æ˜ï¼‰  
+> 6.éƒ¨åˆ†æŒ‡ä»¤æ“ä½œéœ€è¦æ³¨æ„æ“ä½œä½ç½®å’Œæ–‡ä»¶è·¯å¾„é—®é¢˜ï¼Œå³ cd æŒ‡ä»¤çš„ç»“åˆä½¿ç”¨  
+> 7.é»˜è®¤ä¸»åˆ†æ”¯ç”± master æ›´æ”¹ä¸º main ( master == main )ï¼Œå¯èƒ½ä¸æ”¿æ²»åŸå› æœ‰å…³ï¼Œåœ¨æŒ‡ä»¤è¾“å…¥æ—¶æ³¨æ„
 
 ## Auxiliary Characters
 
 * -h (--)help
 
-> Ö¸ÁîÊ¹ÓÃ²éÑ¯/°ïÖúÎÄµµ
+> æŒ‡ä»¤ä½¿ç”¨æŸ¥è¯¢/å¸®åŠ©æ–‡æ¡£
 >
 > * $ git help [cmd] (argvs)
 
@@ -22,7 +22,7 @@
 
 * config
 
-> * ÉèÖÃ²éÑ¯¸ü¸Ä£¨°æ±¾¿â£¬ÏµÍ³£¬È«¾Ö¡­¡­£©Ö¸Áî
+> * è®¾ç½®æŸ¥è¯¢æ›´æ”¹ï¼ˆç‰ˆæœ¬åº“ï¼Œç³»ç»Ÿï¼Œå…¨å±€â€¦â€¦ï¼‰æŒ‡ä»¤
 > *
 > * $ git config --list
 > *
@@ -36,15 +36,15 @@
 
 * clone
 
-> ÏÂÔØ£¨¿½±´£©ÏîÄ¿
+> ä¸‹è½½ï¼ˆæ‹·è´ï¼‰é¡¹ç›®
 >
 > * $ git clone [url]
 >
-> url : Uniform Resource Locator Í³Ò»×ÊÔ´¶¨Î»·û£¨ÍøÖ·µÈ£©
+> url : Uniform Resource Locator ç»Ÿä¸€èµ„æºå®šä½ç¬¦ï¼ˆç½‘å€ç­‰ï¼‰
 
 * init (initialize)
 
-> ³õÊ¼»¯Ö¸Áî
+> åˆå§‹åŒ–æŒ‡ä»¤
 >
 > * $ git init
 > * $ git init [project-name]
@@ -58,9 +58,9 @@
 * pull
 * push
 
-> ÍÆËÍ¸üĞÂÖ¸Áî
+> æ¨é€æ›´æ–°æŒ‡ä»¤
 >
-> * $ git push (origin) (main) ÎŞ²ÎÊıÔòÄ¬ÈÏÎª origin Ô¶¶ËµÄ master ·ÖÖ§
+> * $ git push (origin) (main) æ— å‚æ•°åˆ™é»˜è®¤ä¸º origin è¿œç«¯çš„ master åˆ†æ”¯
 > * $ git push [remote respository name] <branch_name>
 > *
 > * $ git push [remote respository name] --force (???)
@@ -69,7 +69,7 @@
 
 * remote
 
-> Ô¶³ÌÍ¬²½Ö¸Áî
+> è¿œç¨‹åŒæ­¥æŒ‡ä»¤
 >
 > * $ git remote -v
 > * $ git remote show [remote repository name]
@@ -84,13 +84,13 @@
 * branch
 * commit
 
-> Ìá½»Ö¸Áî ½«Ôİ´æÇøµÄ¸ü¸Ä±£´æÎªÒ»¸öÌá½»µ½±¾µØ²Ö¿âÇøÒÔ×¼±¸ÍÆËÍ
+> æäº¤æŒ‡ä»¤ å°†æš‚å­˜åŒºçš„æ›´æ”¹ä¿å­˜ä¸ºä¸€ä¸ªæäº¤åˆ°æœ¬åœ°ä»“åº“åŒºä»¥å‡†å¤‡æ¨é€
 >
 > * $ git -m [message]
 > * $ git [file1] [file2] ... -m [message]
 > *
-> * $ git commit -a (???)Ìá½»¹¤×÷Çø×ÔÉÏ´ÎcommitÖ®ºóµÄ±ä»¯£¬Ö±½Óµ½²Ö¿âÇø
-> * $ git commit -v (???)Ìá½»Ê±ÏÔÊ¾ËùÓĞdiffĞÅÏ¢
+> * $ git commit -a (???)æäº¤å·¥ä½œåŒºè‡ªä¸Šæ¬¡commitä¹‹åçš„å˜åŒ–ï¼Œç›´æ¥åˆ°ä»“åº“åŒº
+> * $ git commit -v (???)æäº¤æ—¶æ˜¾ç¤ºæ‰€æœ‰diffä¿¡æ¯
 
 * merge
 * rebase
@@ -102,7 +102,7 @@
 
 * add
 
-> ÎÄ¼şÌí¼ÓÖ¸Áî ½«ÎÄ¼şÌí¼ÓÖÁ¹¤×÷ÇøÖĞ£¬Ê¹ Git ¿ÉÒÔ×·×Ù¼ÇÂ¼ÎÄ¼şµÄĞŞ¸Ä²¢ÍÆËÍ
+> æ–‡ä»¶æ·»åŠ æŒ‡ä»¤ å°†æ–‡ä»¶æ·»åŠ è‡³å·¥ä½œåŒºä¸­ï¼Œä½¿ Git å¯ä»¥è¿½è¸ªè®°å½•æ–‡ä»¶çš„ä¿®æ”¹å¹¶æ¨é€
 >
 > * $ git add .
 > * $ git add [(Drive:)/sub-directory/.../]
@@ -111,27 +111,27 @@
 > * $ git add (Drive:)/sub-directory/.../specify_file.js
 > * $ git add [file1] [file2] ...
 > *
-> * $ git add -p Ìí¼ÓÃ¿¸ö±ä»¯Ç°£¬¶¼»áÒªÇóÈ·ÈÏ
+> * $ git add -p æ·»åŠ æ¯ä¸ªå˜åŒ–å‰ï¼Œéƒ½ä¼šè¦æ±‚ç¡®è®¤
 
 * rm (remove)
 
-> ÎÄ¼şÉ¾³ıÖ¸Áî ½«ÎÄ¼ş´Ó¹¤×÷ÇøÖĞÉ¾³ı£¬²»»áÔÙÓ°ÏìºóĞø Git ËùÓĞÌá½»ÍÆËÍ
+> æ–‡ä»¶åˆ é™¤æŒ‡ä»¤ å°†æ–‡ä»¶ä»å·¥ä½œåŒºä¸­åˆ é™¤ï¼Œä¸ä¼šå†å½±å“åç»­ Git æ‰€æœ‰æäº¤æ¨é€
 >
 > * $ git rm specify_file.js
 > * $ git rm (Drive:)/sub-directory/.../specify_file.js
 > * $ git rm [file1] [file2] ...
 >
-> * $ git rm --cached [file] Í£Ö¹×·×ÙÖ¸¶¨ÎÄ¼ş£¬µ«¸ÃÎÄ¼ş»á±£ÁôÔÚ¹¤×÷Çø
+> * $ git rm --cached [file] åœæ­¢è¿½è¸ªæŒ‡å®šæ–‡ä»¶ï¼Œä½†è¯¥æ–‡ä»¶ä¼šä¿ç•™åœ¨å·¥ä½œåŒº
 
 * mv (move)
 
-> ÎÄ¼şĞŞ¸ÄÖ¸Áî£¨ÖØÃüÃû£¬ÒÆ¶¯£©
+> æ–‡ä»¶ä¿®æ”¹æŒ‡ä»¤ï¼ˆé‡å‘½åï¼Œç§»åŠ¨ï¼‰
 >
 > * $ git mv [original_name] [new_name]
 > *
 > * $ git mv [filename.js] Drive:/new-path/.../filename.js
 > *
-> * $ git mv -f [filename_original] [filename_existing] Ç¿ÖÆÖØÃüÃû»òÒÆ¶¯£¨¸²¸Ç£©
+> * $ git mv -f [filename_original] [filename_existing] å¼ºåˆ¶é‡å‘½åæˆ–ç§»åŠ¨ï¼ˆè¦†ç›–ï¼‰
 
 * restore
 
@@ -144,14 +144,14 @@
 * show
 * status
 
-> ·ÖÖ§×´Ì¬²éÑ¯Ö¸Áî
+> åˆ†æ”¯çŠ¶æ€æŸ¥è¯¢æŒ‡ä»¤
 >
 > * $ git status
 
 ## Reference Website
 
-* [Git ÃüÁî²Î¿¼ÊÖ²áÕûÀí](https://zhuanlan.zhihu.com/p/389814854)
+* [Git å‘½ä»¤å‚è€ƒæ‰‹å†Œæ•´ç†](https://zhuanlan.zhihu.com/p/389814854)
 
-* [Git-Github »ù´¡²Ù×÷](https://blog.csdn.net/Hanani_Jia/article/details/77950594)
+* [Git-Github åŸºç¡€æ“ä½œ](https://blog.csdn.net/Hanani_Jia/article/details/77950594)
 
-* [Git ÃüÁîÊ¹ÓÃÎÄµµ](https://github.com/ILVACM/GDUT_AStudio/tree/main/LearningSummary/Git-Github/git-doc)
+* [Git å‘½ä»¤ä½¿ç”¨æ–‡æ¡£](https://github.com/ILVACM/GDUT_AStudio/tree/main/LearningSummary/Git-Github/git-doc)
