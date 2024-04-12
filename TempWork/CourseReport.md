@@ -58,23 +58,8 @@ i. 实验室无人机项目中提供一个视觉识别的解决方案，最终�
 ![Stucture2](/TempWork/yolov5-NetStructure.jpg)
 
 ~~~
-    模型结构  
-        Input               输入端  
-        Backbone            核心神经网络（骨干部分）  
-        Neck                特征融合处理（样本特征自适应）  
-        Head / Prediction   预测输出  
+    卷积神经网络基本结构 ( CNN -> Convolutional Neural Network )
 
-    模型组件  
-        名称                 所属层级  
-        Mosaic               Input  
-        Focus                Backbone  
-        CSP-1                Backbone  
-        SPP                  Backbone  
-        CSP-2                Neck  
-        CBL                  Global  
-        Conv                 Global  
-
-    卷积神经网络结构 ( CNN -> Convolutional Neural Network )
         卷积层
             负责提取输入数据的局部特征
             （不同层次维度：基础几何特征 -> 对象部件类别高级抽象特征）
@@ -108,8 +93,33 @@ i. 实验室无人机项目中提供一个视觉识别的解决方案，最终�
                     在输入小于0时不会停止传播梯度，而是有一个小的负梯度  
                     这样可以防止梯度消失，并允许模型学习到更多的非线性关系  
 
-        池化层
+        池化层（非线性操作层）
+            用于减少数据尺寸维度，以降低模型计算复杂度（提高训练速度）和防止过拟合  
+
+            处理模式：最大值池化 (Max Pooling) OR 平均值池化 (Average Pooling)
+
+            处理过程：
+                对输入的数据进行局部区域的池化处理，并将其作为新的特征  
+                重复这个操作，直到覆盖所有的局部区域
+
         全连接层
+            将前面卷积层和池化层提取出的特征进行整合，并进行分类或者回归任务（应用）
+
+    模型结构  
+        Input               输入端  
+        Backbone            核心神经网络（骨干部分）  
+        Neck                特征融合处理（样本特征自适应）  
+        Head / Prediction   预测输出  
+
+    模型组件  
+        名称                 所属层级  
+        Mosaic               Input  
+        Focus                Backbone  
+        CSP-1                Backbone  
+        SPP                  Backbone  
+        CSP-2                Neck  
+        CBL                  Global  
+        Conv                 Global  
 ~~~
 
 ### 五、模型训练  
