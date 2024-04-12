@@ -29,7 +29,7 @@
     运行环境：[ OS -- Windows10 ] + [ Anaconda3 ] + [ Pytorch -- CPU version ]
     编译软件：Pycharm (JetBrains)
 
-### 模型选择 / 需求分析  123214323
+### 模型选择 / 需求分析  
 
     我们小组选择由 Ultralytics 研发的基于 YOLO 算法（You Only Look Once）视觉识别模型 yolo-v5 (yolo-version-5th)
     因为小组成员hbk与小A工作室其他成员组队参加"合泰杯单片机应用设计竞赛"  
@@ -57,7 +57,7 @@
         SPP                 Backbone  
         CSP-2               Neck  
         CBL                 Global  
-        Conv                Global  
+        Conv                Global  -1
 
 ### 模型训练  
 
