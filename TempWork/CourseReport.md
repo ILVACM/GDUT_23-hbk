@@ -41,6 +41,24 @@
     因此在端侧模型模型的训练部署过程中对模型的大小和算力需求都做出了限制，综合考虑了模型性能和平台算力限制，选择了 yolo-v5 模型  
     同时权重参数方面选择最小神经网络参数文件 ( yolov5s -> yolov5-small )
 
+### 模型原理
+
+    模型结构  
+        Input               输入端  
+        Backbone            核心神经网络（骨干部分）  
+        Neck                特征融合处理（对不同大小的样本特征进行自适应）  
+        Head / Prediction   预测输出  
+
+    模型组件  
+        名称                 所属层级  
+        Mosaic              Input  
+        Focus               Backbone  
+        CSP-1               Backbone  
+        SPP                 Backbone  
+        CSP-2               Neck  
+        CBL                 Global  
+        Conv                Global  
+
 ### 模型训练  
 
 ### 成果展示
