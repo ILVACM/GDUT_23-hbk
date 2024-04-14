@@ -119,6 +119,20 @@
 
 ## 代码
 
+> 1. 函数/代码片段 （反引号）
+>
+> > \`Code Snippets`  
+>
+> 2. 代码块
+>
+> > \t Code Block  
+>
+> 3. 指定语言代码块 （反引号）
+>
+> > \```ProgramLanguage (It can be ignored)  
+> > Code Block  
+> > \```  
+
 ## 链接
 
 > 1. 名称链接   \[Interlinkage - Name](Interlinkage - address)
