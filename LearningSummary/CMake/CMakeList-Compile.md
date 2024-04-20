@@ -24,6 +24,8 @@
 >
 > 再附上 CMake 官方网站，[点此跳转](https://cmake.org/download/)
 
+## Composition
+
 ## Content
 
 ### Variable
@@ -32,7 +34,42 @@
 
 #### Single-Valued Variable
 
+> 声明（设置）变量  
+>
+> > set( var-name value )  
+>
+> 移除变量
+>
+> > unset( var-name )
+>
+> 引用变量
+>
+> > ${ var-name }
+>
+> 打印变量
+>
+> > message = (" var-name = ${ var-name } ")  
+>
+
 #### Multi-Valued Variable (List)
+
+> 声明（设置）列表  
+>
+> > set( list-name value-1 ... value-N )
+> > set( list-name "value-1; ... ;value-N" )
+>
+> 移除列表  
+>
+> > unset( list-name )
+>
+> 引用列表
+>
+> > ${ list-name }
+>
+> 打印列表  
+>
+> > message = (" list-name = ${ list-name } ")
+>
 
 ### Basic Format
 
@@ -46,11 +83,15 @@
 >
 > > 参数说明：  
 > > \<name>： 库文件名字  
-> > \[mode]:  STATIC（静态库） / SHARED（共享动态库）  
+> > \[mode]:   STATIC（静态库） / SHARED（共享动态库）  
 > > \[EXCLUDE-FROM-ALL]:   
 > > 如果指定属性，对应的属性会在目标被创建时被设置（是否从默认构建中排除，包括子目录） 
-> > source-N: 被添加入库的源文件
+> > source-N:  被添加入库的源文件  
 >
 > aux_source_directory( . [var-name] ) --- 查找源文件并保存到相应的变量中
 >
-> cmake_minimum_required( VERSION [number] ) --- 指定最低 CMake 版本
+> cmake_minimum_required( VERSION [number] ) --- 指定最低 CMake 版本  
+>
+> set() --- 声明设置变量值（详情见 Variable 内容）
+>
+> unset() --- 移除变量（详情见 Variable 内容）
