@@ -1,0 +1,17 @@
+{
+    "workbench.colorTheme": "Visual Studio 2017 Dark - C++",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontFamily": "JetBrains Mono, '楷体', JetBrains Mono",
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontFamily",
+        "markdown.preview.fontFamily",
+        "markdown.styles"
+    ],
+    "markdown.preview.fontFamily": "JetBrains Mono, '楷体', JetBrains Mono",
+    "markdown-preview-enhanced.codeBlockTheme": "dark.css",
+    "markdown-preview-enhanced.previewTheme": "github-dark.css",
+    "markdown.styles": [
+        "D:\\TOOLS\\VSCode\\config\\Markdown_PDF\\font.css"
+    ],
+    "markdown-pdf.styles": ["D:\\TOOLS\\VSCode\\config\\Markdown_PDF\\font.css"]
+}

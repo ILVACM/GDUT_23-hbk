@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+        "type": "shell",
+        "label": "task g++",
+        "command": "D:\\CPP\\mingw64\\bin\\g++.exe",	
+        "args": [
+            "-g",
+            "${file}",
+            "-o",
+            "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "-I",
+            "Z:\\VScode",      // path to the location of the project
+            "-std=c++17"
+        ],
+        "options": {
+            "cwd": "D:\\CPP\\mingw64\\bin"
+        },
+        "problemMatcher":[
+            "$gcc"
+        ],
+        "group": "build"
+        }
+    ]
+}
+
