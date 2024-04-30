@@ -1,6 +1,6 @@
 # <centre>Git && VScode environment set guilding</centre>
 
-## Git && VScode ΩÃ≥Ã1
+## Git && VScode ù?ù1
 
 <https://blog.csdn.net/qq_35246620/article/details/66973794>
 
