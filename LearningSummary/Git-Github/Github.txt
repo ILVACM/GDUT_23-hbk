@@ -1,7 +1,0 @@
-=== CSDN ===
-https://blog.csdn.net/qq_35246620/article/details/66973794
-
-=== DNS_Buffer ====
-20.205.243.166  github.com
-20.27.177.113   github.com
-140.82.113.4    github.com
