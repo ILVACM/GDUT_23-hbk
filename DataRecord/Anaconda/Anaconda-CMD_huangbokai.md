@@ -121,7 +121,7 @@
 > pip install [package-name]  
 > pip install -U [package-name]  
 > pip install -i [URL]  
-> pip install -f [requirements-filename].txt
+> pip install -r [requirements-filename].txt
 
 * uninstall
 
