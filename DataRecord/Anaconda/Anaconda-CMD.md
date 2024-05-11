@@ -8,6 +8,7 @@
 > 4. 命令格式说明中，'()' 代表可选（可省略），'[]' 代表 "指定格式字符串替换"， || 代表"多种格式选择"  
 > 5. 命令格式有两种指定方式："--[command]", "-[command]" 前者替换为命令全称，后者为简称  
 > 6. anaconda 命令一般以 "conda" 开头
+> 7. pip VS conda
 
 ## Comparison Table
 
@@ -27,17 +28,45 @@ conda --version
 ## Environment
 
 * activate  
-conda activate [env-name]
+
+> conda activate [env-name]
 
 * creat  
-conda create -n [env-name] python=[version-number]  
+
+> conda create -n [env-name] python=[version-number]  
 
 * deactivate
-conda deactivate
+
+> conda deactivate
 
 * remove
-conda remove -n [env-name] --all
+
+> conda remove -n [env-name] --all
 
 ### Version Management
 
 ### Package Management
+
+#### Conda Operation
+
+* install
+
+> conda install [package-name]
+> conda install [package-name]=[version-number]
+> conda install [package-name] --channel [URL]
+
+* uninstall
+
+> conda uninstall [package-name]
+
+* version
+
+* update
+
+> conda update [package-name]
+
+* search
+
+> conda search [package-name]
+
+#### pip Operation
