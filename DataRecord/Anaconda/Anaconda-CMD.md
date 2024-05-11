@@ -55,6 +55,10 @@ conda --version
 > conda install [package-name]=[version-number]
 > conda install [package-name] --channel [URL]
 
+* search
+
+> conda search [package-name]  
+
 * uninstall
 
 > conda uninstall [package-name]
@@ -65,8 +69,9 @@ conda --version
 
 > conda update [package-name]
 
-* search
-
-> conda search [package-name]
-
 #### pip Operation
+
+* install
+* uninstall
+* update
+* version
