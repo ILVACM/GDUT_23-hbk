@@ -26,6 +26,8 @@ data.isnull().sum()
 
 data["ph.ecog"] = data["ph.ecog"].astype("int64")
 
+E = data['status']
+
 T = data["time"]
 plt.hist(T, bins = 50)
 plt.show()
