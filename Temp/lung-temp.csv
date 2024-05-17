@@ -1,4 +1,4 @@
-"","Sample","time","status","age","sex","myc,smoking","gene_alteration_status","pathological_stage","pstage_iorii"
+,Sample,time,status,age,sex,myc,smoking,gene_alteration_status,pathological_stage,pstage_iorii
 1,GSM773540,437,1,55,1,Low,0,ALK-fusion +,II,II
 2,GSM773541,743,0,38,1,Low,1,ALK-fusion +,II,II
 3,GSM773542,2601,0,30,0,Low,1,ALK-fusion +,II,II
