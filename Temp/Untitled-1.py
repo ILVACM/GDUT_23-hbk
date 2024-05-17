@@ -1,16 +1,18 @@
 
 # 导入库
+# # pip install lifelines --user
 import numpy as np
 import pandas as pd
 from lifelines import KaplanMeierFitter
 from lifelines import CoxPHFitter
 import matplotlib.pyplot as plt
-
 # 导入数据集
 data = pd.read_csv("lung.csv", index_col = 0)
+
 data.head()
 
 data.shape
+
 data.dtypes
 
 data.isnull().sum()
