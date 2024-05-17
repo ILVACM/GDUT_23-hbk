@@ -1,0 +1,4 @@
+ALK-fus1on +    ==== 0
+KRAS mutat1on + ==== 1
+EGFR/KRAS/ALK - ==== 2
+EGFR mutat1on + ==== 3
