@@ -135,6 +135,27 @@
 
 * restore
 
+## Large Files Storeage
+
+>
+```  
+
+git lfs install  
+
+git lfs track "*.ext"  
+
+git add .gitattributes  
+
+git add . 
+
+git commit -m "Add large file using Git LFS"  
+
+git push
+
+
+```  
+>
+
 ## Examine The history && state
 
 * bisect
