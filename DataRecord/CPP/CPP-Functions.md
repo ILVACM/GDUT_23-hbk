@@ -8,6 +8,27 @@
 
 ## \<cstdio> ( \<stdio.h> )
 
+### struct
+
+> 该模块注意其语法格式，尤其是 C / C++ 之间的差别  
+
+```cpp
+
+//Declaration Structures  
+struct structure_name  
+{
+    int example_1 = 1;
+    int example_2;
+
+    //... Write on demand of yourself
+}
+
+//Define Structures  
+struct structure_name variable_name;
+```
+
+### union
+
 ## STL
 
 ### Iterator
