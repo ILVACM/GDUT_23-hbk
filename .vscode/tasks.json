@@ -11,7 +11,7 @@
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe",
                 "-I",
-                "Z:\\GDUT_AStudio",
+                "Z:\\GDUT_23-hbk",
                 "-std=c++17"
             ],
             "options": {
