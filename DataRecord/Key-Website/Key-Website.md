@@ -1,5 +1,9 @@
 <h1 align = "center"> Key Website </h1>
 
+## paper search
+
+    [论文相关可视化网站](https://www.connectedpapers.com/)
+
 ## paper cite format transformation
 
     [Paperpile](https://www.bibtex.com/converters/)
@@ -23,4 +27,6 @@
     * Gitee
     * Gitcode
 
-## \\
+## Tencent Online Document
+
+    [腾讯文档](https://docs.qq.com/desktop)
