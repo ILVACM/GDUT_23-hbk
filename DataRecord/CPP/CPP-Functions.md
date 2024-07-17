@@ -83,3 +83,5 @@ struct structure_name variable_name;
 ## \<algorithm>
 
 ## Class
+
+……
