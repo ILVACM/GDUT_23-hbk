@@ -266,7 +266,6 @@
 > https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch  
 > https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/simpleitk  
 
-
 ### 3
 
 * Anaconda command reference [CSDN-anaconda常用命令](https://blog.csdn.net/KRISNAT/article/details/125809675)
