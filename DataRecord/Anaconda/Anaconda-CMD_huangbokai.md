@@ -28,6 +28,10 @@
 >       > 输入安装命令：‵bash Anaconda3-[version]-[OS]-[arch].sh‵
 > 3. 重新打开终端即可
 
+## start Anaconda in Graphical User Interface (GUI)
+
+> `anaconda-navigator`
+
 ## Comparison Table
 
 ## SoftWare Basic Operate
@@ -261,3 +265,8 @@
 > https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/menpo  
 > https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch  
 > https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/simpleitk  
+
+
+### 3
+
+* Anaconda command reference [CSDN-anaconda常用命令](https://blog.csdn.net/KRISNAT/article/details/125809675)
