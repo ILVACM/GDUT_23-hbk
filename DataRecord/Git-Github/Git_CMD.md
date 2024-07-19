@@ -10,6 +10,58 @@
 > 6.部分指令操作需要注意操作位置和文件路径问题，即 cd 指令的结合使用  
 > 7.默认主分支由 master 更改为 main ( master == main )，可能与政治原因有关，在指令输入时注意
 
+## The Installation and Preparation Of Local Environment ( for Github )
+
+### Windows-10
+
+> 1. 前往官网安装 Git
+> 2. 本地安装配置 Git （勾选配置的时候以默认为主，可以根据实际情况稍加改动）
+> 3. 打开 Git Bash 开始配置
+> 4. 配置 本地用户名 / 邮箱 ，执行如下命令:  
+>    `
+>       git config --global user.name "your_name"
+>       git config --global user.email "your_email"
+>    `
+> 5. 生成密钥，执行如下命令:  
+>    `
+>       ssh-keygen -t rsa -C "your_email"
+>    `
+> 6. 将公钥（ .ssh 文件中的 rsa.pub ）添加到 GitHub 账户中(注意密钥名称格式应遵循相应的规范)
+> 7. 测试，执行如下命令:  
+>    `
+>       ssh -T git@github.com
+>    `
+
+### Linux-Ubuntu22.04
+
+> 1. 打开终端（在终端中进行操作，包括安装和后面的使用）
+> 2. 更新系统软件包依赖（可选），执行如下命令:  
+>    `
+>       sudo apt-get update
+>    `
+> 3. 安装 Git ，执行如下命令:  
+>    `
+>       sudo apt-get install git
+>    `
+> 4. 安装测试，执行如下命令:  
+>    `
+>       git --version
+>    `
+> 5. 配置 本地用户名 / 邮箱 ，执行如下命令:  
+>    `
+>       git config --global user.name "your_name"
+>       git config --global user.email "your_email"
+>    `
+> 6. 生成密钥，执行如下命令:  
+>    `
+>       ssh-keygen -t rsa -C "your_email"
+>    `
+> 7. 将公钥（ .ssh 文件中的 rsa.pub ）添加到 GitHub 账户中(注意密钥名称格式应遵循相应的规范)
+> 8. 测试，执行如下命令:  
+>    `
+>       ssh -T git@github.com
+>    `
+
 ## Auxiliary Characters
 
 * -h (--)help
