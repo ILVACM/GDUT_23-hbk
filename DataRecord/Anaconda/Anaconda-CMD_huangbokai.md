@@ -10,6 +10,24 @@
 > 6. anaconda 命令一般以 "conda" 开头  
 > 7. pip VS conda  
 
+## The Installation and Preparation Of Local Environment
+
+### Windows-10
+
+> 前往官网下载安装即可
+
+### Linux-Ubuntu22.04
+
+> 1. 前往[官网](https://www.anaconda.com/)下载安装包（文件后缀.sh）
+> 2. 终端安装:
+>       方法一:  
+>       > 直接打开终端  
+>       > 输入安装命令：‵bash ~/ Path to the file/Anaconda3-[version]-[OS]-[arch].sh‵  
+>       方法二:  
+>       > 在安装包文件出，右键"在终端打开"
+>       > 输入安装命令：‵bash Anaconda3-[version]-[OS]-[arch].sh‵
+> 3. 重新打开终端即可
+
 ## Comparison Table
 
 ## SoftWare Basic Operate
