@@ -34,6 +34,9 @@
 
 ## Comparison Table
 
+> Postfix command
+> -y / --yes 后置指令，自动确认
+
 ## SoftWare Basic Operate
 
 * cd -- 切换文件路径  
@@ -47,6 +50,12 @@
 ## Help
 
 ## SoftWare Config
+
+### Global
+
+* show
+
+> conda config --show
 
 ### Channel
 
@@ -84,7 +93,14 @@
 >
 
 * remove
+
+> conda config --remove channels [URL]
+
 * reset
+
+* show
+
+> conda config --show-source
 
 ## Environment
 
@@ -95,6 +111,7 @@
 * backup / export
 
 > conda env export > [env-name].yaml
+> conda list -e > [env-filename].txt
 
 * creat  
 
