@@ -52,3 +52,27 @@
 
     [CSDN_Crack-Online](https://www.niupizhiyuan.com/download.html)
     [Source-WebSite](https://www.niupizhiyuan.com)
+
+## Open-Source Software Source Mirror Sites
+
+### Git-type
+
+    [Github](https://github.com/)
+    [Gitee](https://gitee.com/)
+    [Gitlab](https://gitlab.com/)
+
+### 华为
+
+    [HUAWEI](https://mirrors.huaweicloud.com/home)
+
+### 阿里
+
+    [Aliyun](https://mirrors.aliyun.com/)
+
+### 清华
+
+    [Tsinghua](https://mirrors.tuna.tsinghua.edu.cn/)
+
+### 中科大
+
+## \\
