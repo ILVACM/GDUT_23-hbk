@@ -2,6 +2,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Hello",
+            "request": "launch",
+            "mainClass": "Hello",
+            "projectName": "GDUT_23-hbk_5477ee19"
+        },
+        {
             "name": "C/C++",
             "type": "cppdbg",
             "request": "launch",
@@ -10,7 +17,7 @@
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
-            "externalConsole": true, // 打开这个会另起一个终端显示结果
+            "externalConsole": true,
             "MIMode": "gdb",
             "preLaunchTask": "compile",
             "setupCommands": [
