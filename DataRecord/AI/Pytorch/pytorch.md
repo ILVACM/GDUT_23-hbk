@@ -10,5 +10,14 @@
 
 ### Linux-Ubuntu
 
-## context
+## Summary of related dependency libraries
 
+| Library            | primary role                       |
+|:------------------:|:----------------------------------:|
+| pytorch            | base                               |
+| albumentations     | image processing                   |
+| torchmetrics       | evaluation indicator               |
+| tqdm               | identify status                    |
+| einops             | Visualization of Tensor Operations |
+
+## context

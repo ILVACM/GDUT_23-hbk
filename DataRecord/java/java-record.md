@@ -14,6 +14,7 @@
 
 1. Java 是强类型语言，C / C++ 是弱类型语言，Java 的类型检查远比 C / C++ 严格
 2. Java 中的变量更多的创建为引用
+3. Java 中的函数参数传递（ 实参 / 形参 ）均为值传递（拷贝值，原地址值不改变）
 
 ## Reserved Word
 
@@ -23,16 +24,43 @@ public static final
 
 ## Data Type
 
-byte  
-short  
-int  
-long  
+byte short int long  
 
-float  
-double  
+float double  
 
-char
+char  
 
-boolean
+boolean  
 
-## Operator
+public private static final  
+
+## variant
+
+### local variable
+
+局部变量
+
+### Instance Variables
+
+实例变量
+
+## Function Format
+
+### Main Function
+
+在 Java 中，在程序的真正的类函数入口加入（且仅使用一次）如下函数：
+
+    ```java
+        public static void main(String[] args) {}
+    ```
+
+### Encapsulation
+
+#### Getter && Setter
+
+Setter && Getter 并不是一个具体的函数或者方法，是 Java 对象中的一个封装处理思想（类似算法），是一种保证程序正常运行的处理流程步骤。
+
+setter （传入）将实参赋值给对象的成员变量
+getter （传出）返回对象的成员变量的值
+
+#### Access Modifier
