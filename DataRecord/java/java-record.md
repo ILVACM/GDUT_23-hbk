@@ -63,4 +63,24 @@ Setter && Getter 并不是一个具体的函数或者方法，是 Java 对象中
 setter （传入）将实参赋值给对象的成员变量
 getter （传出）返回对象的成员变量的值
 
+#### Format
+
+\[Modifier] [Type] [Name] ( [Parameter] ) {}  
+
 #### Access Modifier
+
+public private protected
+
+static（静态） final（常量）
+
+## Comment
+
+// 单行注释
+
+/\* …… */ 多行注释
+
+## Operator
+
+1. comparison operator: == != > < >= <=  
+2. Relational Operator: + - * / % ++ -- 组合运算符
+3. Logical Operator: && || !
