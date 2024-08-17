@@ -85,3 +85,10 @@
 [性价比机场.net](https://xn--6nq44r2uh9rhj7f.net/#/dashboard)
 [Clash](https://www.clash.la/)
 [翻翻墙](https://www.ffq.la/)
+
+## AI Website
+
+### Aliyun
+
+[通义模型](https://tongyi.aliyun.com/)
+[魔塔社区](https://modelscope.cn/)
