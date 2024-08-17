@@ -51,7 +51,7 @@
 [Netron](https://github.com/lutzroeder/netron)
 [Netron-Online](https://netron.app/)
 
-## CSDN Crack 
+## CSDN Crack
 
 ### Online
 
@@ -80,6 +80,14 @@
 
 ### 中科大
 
+### Xitongku
+
+[系统库](https://www.xitongku.com/)
+
+### MSDN
+
+[I tell you](https://msdn.itellyou.cn/)
+
 ## Airport Website（梯子）
 
 [性价比机场.net](https://xn--6nq44r2uh9rhj7f.net/#/dashboard)
@@ -92,3 +100,7 @@
 
 [通义模型](https://tongyi.aliyun.com/)
 [魔塔社区](https://modelscope.cn/)
+
+## Flash / Office
+
+[Flash](https://www.flash.cn/)
