@@ -51,3 +51,16 @@ HKEY_LOCAL_MACHINE/SYSTEM/ControlSet002/Services/Eventlog/Application/MySQL
 HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Services/Eventlog/Application/MySQL  
 
 ## Usage
+
+### Connection
+
+#### IDE
+
+##### VScode
+
+1. Install the MySQL extension
+2. Create a new connection
+
+Plugin -> MySQL (Weijian Chen) / MySQL Syntax (Jake Bathman) / MySQL Shell for VScode (Oracle Corporation)
+
+##### IDEA(JetBrains)
