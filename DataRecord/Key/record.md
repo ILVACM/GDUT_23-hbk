@@ -5,6 +5,7 @@
     缩写：（Shenzhen Institute of Advanced Technology， SIAT）
     
     配置：2080ti * 4
+    
     网络：内网 - 华为终端 SecoClient
     信息：210.75.253.159:9900(SSL-VPN)-SIAT
 
