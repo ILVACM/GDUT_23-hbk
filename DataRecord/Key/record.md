@@ -3,7 +3,9 @@
 ## 中国科学院深圳先进技术研究院
 
     缩写：（Shenzhen Institute of Advanced Technology， SIAT）
-    
+
+### server SIAT-1
+
     配置：2080ti * 4
     
     网络：内网 - 华为终端 SecoClient
@@ -17,3 +19,11 @@
 ## 广东工业大学广东省信息物理融合系统重点实验室
 
     缩写：（CPS）
+
+### server CPS-1
+
+    配置：4090
+
+    连接方式：ToDesk  
+    设备代码：776 208 478  
+    临时密码：kobeman5
