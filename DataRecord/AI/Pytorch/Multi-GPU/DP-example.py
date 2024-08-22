@@ -93,6 +93,8 @@ for epoch in range(num_epochs):
         # 睡眠一小段时间，以便观察变化
         time.sleep(1)
 
+print("\nTraining finished!\n")
+
 # 训练结束后再次显示 GPU 信息
 for i in range(len(device_ids)):
     print(f"Device {i}: {torch.cuda.get_device_name(i)}")
