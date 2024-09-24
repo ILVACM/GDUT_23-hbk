@@ -16,6 +16,12 @@
 
 [Paper Pile](https://www.bibtex.com/converters/)
 
+## CPP Basic Algorithms
+
+[行码棋-CPP](https://wyqz.top/p/870124582.html#toc-heading-1)
+[行码棋](https://wyqz.top/)
+[行码棋-Github](https://github.com/anda522)
+
 ## language translation
 
 [DeepL](https://www.deepl.com/home)
