@@ -1,0 +1,3 @@
+用户名 guanggong
+密码 Key@1234
+用已有镜像的话，命令是bash /root/scm.sh && sleep infinity
