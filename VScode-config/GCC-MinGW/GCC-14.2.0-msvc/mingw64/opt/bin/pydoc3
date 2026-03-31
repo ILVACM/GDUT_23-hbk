@@ -1,0 +1,5 @@
+#!C:/buildroot/x86_64-1420-win32-seh-msvcrt-rt_v12-rev0/mingw64/opt/bin/python3.11.exe
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()
